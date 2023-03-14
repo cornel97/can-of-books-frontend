@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function BestBooks() {
   const [books, setBooks] = useState([]);
-
+  console.log(setBooks);
   /* TODO: Make a GET request to your API to fetch all the books from the database  */
 
   /* TODO: render all the books in a Carousel */
